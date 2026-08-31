@@ -17,6 +17,9 @@ pip install -r requirements.txt
 pip install uv
 ```
 
+`uv` is required because the `mcp dev` command below uses it under the hood to
+launch the Inspector.
+
 ## Running it
 
 ```
