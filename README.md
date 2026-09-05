@@ -57,6 +57,8 @@ if "restart_agent" not in CURRENT_USER["permissions"]:
 That check is the whole reason the server exists. In a real system this is where
 you'd stop an agent from doing something it shouldn't, and the user identity
 would come from an actual auth layer instead of being hard-coded like it is here.
+To see the allowed path instead, add `"restart_agent"` to `CURRENT_USER["permissions"]`
+in `server.py` and call the tool again.
 
 ## Built with
 
