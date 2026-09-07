@@ -36,7 +36,7 @@ running locally.
 |------|-------|--------------|
 | `list_queues` | none | Lists all queues with depth and status |
 | `get_queue_depth` | queue_name | Depth and status of one queue |
-| `search_logs` | keyword | Log lines that match a keyword |
+| `search_logs` | keyword | Log lines that match a keyword (case-insensitive) |
 | `restart_agent` | agent_id | Restarts an agent; blocked on purpose by the permission check |
 
 The first three are read-only, so the user is allowed to run them.
