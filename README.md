@@ -39,6 +39,9 @@ running locally.
 | `search_logs` | keyword | Log lines that match a keyword (case-insensitive) |
 | `restart_agent` | agent_id | Restarts an agent; blocked on purpose by the permission check |
 
+For `get_queue_depth`, the available queue names are `ORDERS.IN`, `PAYMENTS.IN`,
+`SHIPPING.OUT`, and `DLQ`.
+
 The first three are read-only, so the user is allowed to run them.
 `restart_agent` is the interesting one. It's a real action, and the current user
 doesn't have permission for it, so trying to call it in the Inspector comes back
