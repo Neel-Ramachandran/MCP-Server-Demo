@@ -42,6 +42,9 @@ running locally.
 For `get_queue_depth`, the available queue names are `ORDERS.IN`, `PAYMENTS.IN`,
 `SHIPPING.OUT`, and `DLQ`.
 
+For `search_logs`, try keywords like `ERROR`, `WARN`, or `DLQ` to see matching
+sample log lines.
+
 The first three are read-only, so the user is allowed to run them.
 `restart_agent` is the interesting one. It's a real action, and the current user
 doesn't have permission for it, so trying to call it in the Inspector comes back
