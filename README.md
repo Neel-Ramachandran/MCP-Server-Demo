@@ -28,8 +28,8 @@ mcp dev server.py
 ```
 
 That launches the MCP Inspector. Open the URL it prints, click Connect, and go
-to the Tools tab. You can ignore the Authentication section, it isn't needed for
-running locally.
+to the Tools tab. You can ignore the Authentication section since it isn't
+needed for running locally.
 
 ## The four tools
 
