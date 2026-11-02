@@ -12,7 +12,7 @@ that decides what's allowed.
 
 ## Setup
 
-```
+```bash
 pip install -r requirements.txt
 pip install uv
 ```
@@ -23,7 +23,7 @@ the Inspector.
 
 ## Running it
 
-```
+```bash
 mcp dev server.py
 ```
 
