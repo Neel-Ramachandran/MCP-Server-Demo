@@ -51,8 +51,9 @@ the permission check blocks the call before the ID is ever used.
 
 The first three are read-only, so the user is allowed to run them.
 `restart_agent` is the interesting one. It's a real action, and the current user
-doesn't have permission for it, so trying to call it in the Inspector comes back
-with a permission-denied error instead of doing anything.
+(hard-coded in `server.py` with the role `"intern"`) doesn't have permission for
+it, so trying to call it in the Inspector comes back with a permission-denied
+error instead of doing anything.
 
 ## The point
 
