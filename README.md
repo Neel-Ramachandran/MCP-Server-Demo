@@ -12,6 +12,8 @@ that decides what's allowed.
 
 ## Setup
 
+Run these inside a virtual environment to avoid polluting your global Python packages.
+
 ```bash
 pip install -r requirements.txt
 pip install uv
