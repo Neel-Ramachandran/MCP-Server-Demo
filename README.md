@@ -43,7 +43,7 @@ needed for running locally.
 | `restart_agent` | agent_id | Restarts an agent; blocked on purpose by the permission check |
 
 For `get_queue_depth`, the available queue names are `ORDERS.IN`, `PAYMENTS.IN`,
-`SHIPPING.OUT`, and `DLQ`.
+`SHIPPING.OUT`, and `DLQ` (dead-letter queue, where failed messages end up).
 
 For `search_logs`, try keywords like `INFO`, `ERROR`, `WARN`, or `DLQ` to see
 matching sample log lines.
